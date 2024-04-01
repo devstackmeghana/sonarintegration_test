@@ -1,0 +1,6 @@
+projectKey=sonarintegration_python
+serverUrl=http://localhost:9000
+serverVersion=10.4.1.88267
+dashboardUrl=http://localhost:9000/dashboard?id=sonarintegration_python
+ceTaskId=35ea08d7-6c05-47ad-9575-e5326836f22a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=35ea08d7-6c05-47ad-9575-e5326836f22a
