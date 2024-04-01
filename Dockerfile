@@ -1,24 +1,19 @@
-# Use Node.js image as base
-FROM node:latest
+# Use SonarScanner CLI image as base
+FROM sonarsource/sonar-scanner-cli
+
+# Set environment variables
+ENV SONAR_HOST_URL="http://host.docker.internal:9000"
+ENV SONAR_PROJECT_KEY="sonarintegration_node"
+ENV SONAR_TOKEN="sqp_3d1b655c8e7f26ca4e9f9fcee3a2085cef11363f"
 
 # Set working directory
-WORKDIR /usr/src/app
+WORKDIR /usr/src
 
-# Copy package.json and package-lock.json
-COPY package*.json ./
+# Copy project files into the container
+COPY . /usr/src
 
-# Install dependencies
-RUN npm install
-
-# Copy application files
-COPY . .
-
-# Expose port 3010
-EXPOSE 3010
-
-# Command to start the application
-CMD node index.js
-
+# Command to run SonarScanner analysis
+CMD sonar-scanner
 
 
 
