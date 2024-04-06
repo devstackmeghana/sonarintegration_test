@@ -1,19 +1,46 @@
-# Use SonarScanner CLI image as base
-FROM sonarsource/sonar-scanner-cli
+# Use an official Node.js base image
+FROM node:14
 
-# Set environment variables
-ENV SONAR_HOST_URL="http://host.docker.internal:9000"
-ENV SONAR_PROJECT_KEY="sonarintegration_node"
-ENV SONAR_TOKEN="sqp_3d1b655c8e7f26ca4e9f9fcee3a2085cef11363f"
+# Install Sonar Scanner CLI
+RUN npm install -g sonarqube-scanner
 
 # Set working directory
-WORKDIR /usr/src
+WORKDIR /app
 
-# Copy project files into the container
-COPY . /usr/src
+# Copy your Node.js application code to the container
+COPY package.json package-lock.json ./
+RUN npm install
+COPY . .
 
-# Command to run SonarScanner analysis
-CMD sonar-scanner
+# Run Sonar Scanner analysis (replace with your SonarQube server details)
+CMD sonar-scanner \
+    -Dsonar.host.url=http://host.docker.internal:9000 \
+    -Dsonar.login=sqp_1875c66f3cc0f7e947bd19302b36cbeae22f3c41 \
+    -Dsonar.projectKey=sonarintegration_node \
+    -Dsonar.sources=.
+
+
+
+
+
+
+
+# Use SonarScanner CLI image as base
+# FROM sonarsource/sonar-scanner-cli
+
+# # Set environment variables
+# ENV SONAR_HOST_URL="http://host.docker.internal:9000"
+# ENV SONAR_PROJECT_KEY="sonarintegration_node"
+# ENV SONAR_TOKEN="sqp_1875c66f3cc0f7e947bd19302b36cbeae22f3c41"
+
+# # Set working directory
+# WORKDIR /usr/src
+
+# # Copy project files into the container
+# COPY . /usr/src
+
+# # Command to run SonarScanner analysis
+# CMD sonar-scanner
 
 
 

@@ -1,0 +1,13 @@
+D:\sonarrrr\rust_project\target\debug\deps\libtracing-1a0879582460ffc8.rmeta: C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\lib.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\macros.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\dispatcher.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\field.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\instrument.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\level_filters.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\span.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\stdlib.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\subscriber.rs
+
+D:\sonarrrr\rust_project\target\debug\deps\tracing-1a0879582460ffc8.d: C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\lib.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\macros.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\dispatcher.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\field.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\instrument.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\level_filters.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\span.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\stdlib.rs C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\subscriber.rs
+
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\lib.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\macros.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\dispatcher.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\field.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\instrument.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\level_filters.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\span.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\stdlib.rs:
+C:\Users\HP\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tracing-0.1.40\src\subscriber.rs:
